@@ -44,4 +44,7 @@ print(avg)
 
 # lambda expressions
 # TODO sort the list
+age_sorted =sorted(students,key=lambda s:s['age'])
 
+for student in age_sorted:
+    print(student)
